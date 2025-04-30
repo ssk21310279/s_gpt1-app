@@ -1,0 +1,19 @@
+# ===== Python 関連 =====
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ===== Jupyter Notebook チェックポイント =====
+.ipynb_checkpoints/
+
+# ===== 学習済みモデル・トークナイザ =====
+*.pt
+*.pth
+*.model
+*.vocab
+
+# ===== ログ・一時ファイル =====
+*.log
+
+# ===== Streamlit Secrets（重要）=====
+.streamlit/secrets.toml
